@@ -1,12 +1,15 @@
 {
-  "name": "newme_portfolio",
+  "name": "ThisisNivi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nivird.github.io/ThisisNivi/",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -28,6 +31,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^5.0.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
